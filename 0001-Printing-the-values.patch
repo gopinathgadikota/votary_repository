@@ -1,0 +1,27 @@
+From 1f11d2a3299560d1f37cc7d8b6df52d2f4a6984e Mon Sep 17 00:00:00 2001
+From: Gopinath <gopinath@gmail.com>
+Date: Thu, 17 Aug 2017 11:40:11 +0530
+Subject: [PATCH] Printing the values
+
+---
+ main.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/main.c b/main.c
+index a94fea7..ae53573 100644
+--- a/main.c
++++ b/main.c
+@@ -1,7 +1,8 @@
+ #include<stdio.h>
+ void main()
+ {
+-int val1,val2;
+-
++	int val1,val2;
++	val1=10,val2=20;
++	printf ("val1 is %d and val2 is %d",val1,val2);
+ 
+ }
+-- 
+1.9.1
+

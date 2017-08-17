@@ -1,0 +1,26 @@
+From 3da72321fb247c87162780b36aae5f666db8abba Mon Sep 17 00:00:00 2001
+From: Gopinath <gopinath@gmail.com>
+Date: Thu, 17 Aug 2017 12:07:49 +0530
+Subject: [PATCH] Adding more print
+
+---
+ main.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/main.c b/main.c
+index 06fe0c1..8d041a9 100644
+--- a/main.c
++++ b/main.c
+@@ -2,6 +2,8 @@
+ void main()
+ {
+ 
+-Printf "Hello world"
+ 
++Printf "Hello world"
++Printf "Hello world"
++Printf "Hello world"
+ }
+-- 
+1.9.1
+

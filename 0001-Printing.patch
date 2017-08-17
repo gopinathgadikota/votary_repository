@@ -1,0 +1,24 @@
+From 62e37a7f1271bed7084e6fd86bfc7152e1113923 Mon Sep 17 00:00:00 2001
+From: Gopinath <gopinath@gmail.com>
+Date: Thu, 17 Aug 2017 11:59:37 +0530
+Subject: [PATCH] Printing
+
+---
+ main.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/main.c b/main.c
+index 6913b20..06fe0c1 100644
+--- a/main.c
++++ b/main.c
+@@ -2,6 +2,6 @@
+ void main()
+ {
+ 
+-
++Printf "Hello world"
+ 
+ }
+-- 
+1.9.1
+

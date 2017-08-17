@@ -2,6 +2,8 @@
 void main()
 {
 
-Printf "Hello world"
 
+Printf "Hello world"
+Printf "Hello world"
+Printf "Hello world"
 }
